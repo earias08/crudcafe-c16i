@@ -17,6 +17,54 @@
       "nombreProducto": "café",
       "precioProducto": "40",
       "categoria": "bebida-caliente"
+    },
+    {
+      "nombreProducto": "submarino",
+      "precioProducto": "50",
+      "categoria": "bebida-caliente",
+      "id": 4
+    },
+    {
+      "nombreProducto": "te",
+      "precioProducto": "30",
+      "categoria": "bebida-caliente",
+      "id": 5
+    },
+    {
+      "nombreProducto": "alfajores de maicena",
+      "precioProducto": "25",
+      "categoria": "dulce",
+      "id": 6
+    },
+    {
+      "nombreProducto": "alfajor de chocolate",
+      "precioProducto": "25",
+      "categoria": "dulce",
+      "id": 7
+    },
+    {
+      "nombreProducto": "brownie",
+      "precioProducto": "60",
+      "categoria": "dulce",
+      "id": 8
+    },
+    {
+      "nombreProducto": "Pan 1kg",
+      "precioProducto": "100",
+      "categoria": "salado",
+      "id": 9
+    },
+    {
+      "nombreProducto": "Licuado de durazno",
+      "precioProducto": "100",
+      "categoria": "bebida-fria",
+      "id": 10
+    },
+    {
+      "nombreProducto": "Licuado de banana",
+      "precioProducto": "120",
+      "categoria": "bebida-fria",
+      "id": 11
     }
   ]
 }
