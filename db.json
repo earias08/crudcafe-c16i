@@ -25,40 +25,16 @@
       "id": 5
     },
     {
-      "nombreProducto": "alfajores de maicena",
-      "precioProducto": "25",
-      "categoria": "dulce",
-      "id": 6
-    },
-    {
-      "nombreProducto": "alfajor de chocolate",
-      "precioProducto": "25",
-      "categoria": "dulce",
-      "id": 7
-    },
-    {
-      "nombreProducto": "brownie",
-      "precioProducto": "60",
-      "categoria": "dulce",
-      "id": 8
-    },
-    {
       "nombreProducto": "Pan 1kg",
       "precioProducto": "100",
       "categoria": "salado",
       "id": 9
     },
     {
-      "nombreProducto": "Licuado de durazno",
-      "precioProducto": "100",
+      "nombreProducto": "gsfgdfg",
+      "precioProducto": "30",
       "categoria": "bebida-fria",
-      "id": 10
-    },
-    {
-      "nombreProducto": "Licuado de banana",
-      "precioProducto": "120",
-      "categoria": "bebida-fria",
-      "id": 11
+      "id": 12
     }
   ]
 }

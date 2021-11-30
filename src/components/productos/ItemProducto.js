@@ -24,18 +24,23 @@ const ItemProducto = (props) => {
             method: "DELETE",
             headers: {
               "Content-Type": "application/json",
-            }
+            },
           });
-          console.log(respuesta);
+          //console.log(respuesta);
+          if (respuesta.status === 200) {
+            //asumimos que se borro el producto
+            //cartel informativo para el usuario
+            Swal.fire(
+              "Producto eliminado",
+              "El producto fue correctamente borrado",
+              "success"
+            );
+            props.consultarAPI();
+          }
+          //mostrar un cartel de error
         } catch (error) {
           console.log(error);
         }
-        //cartel informativo para el usuario
-        Swal.fire(
-          "Producto eliminado",
-          "El producto fue correctamente borrado",
-          "success"
-        );
       }
     });
   };
