@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 import {Link} from 'react-router-dom';
 
 const ItemProducto = (props) => {
-  const URL = process.env.REACT_APP_API_URL + "/" + props.producto.id;
+  const URL = process.env.REACT_APP_API_URL + "/" + props.producto._id;
 
   const eliminarProducto = () => {
     // console.log(URL);
@@ -55,7 +55,7 @@ const ItemProducto = (props) => {
         </span>
       </p>
       <div>
-        <Link className='btn btn-warning me-2' to={`/productos/editar/${props.producto.id}`}>Editar</Link>
+        <Link className='btn btn-warning me-2' to={`/productos/editar/${props.producto._id}`}>Editar</Link>
         <Button variant="danger" onClick={() => eliminarProducto()}>
           Borrar
         </Button>
